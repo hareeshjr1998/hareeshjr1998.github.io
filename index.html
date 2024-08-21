@@ -1,30 +1,9 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Website</title>
-</head>
-<body>
-    <header>
-        <h1>Welcome to Our Website</h1>
-    </header>
-    <main>
-        <p>We are delighted to have you here! Thank you for visiting our website.</p>
-        <p>Explore our content and discover what we have to offer.</p>
-    </main>
-    <footer>
-        <p>&copy; 2023 Your Company Name</p>
-    </footer>
-</body>
-</html> -->
-<!--  demo project
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Website</title>
+    <title>My Bio Page</title>
     <style>
         /* General styles */
         body {
@@ -54,10 +33,6 @@
             border-radius: 8px;
         }
 
-        main p {
-            margin: 10px 0;
-        }
-
         /* Image styles */
         .image-container {
             text-align: center;
@@ -65,65 +40,19 @@
         }
 
         .image-container img {
-            max-width: 100%;
+            max-width: 150px;
             height: auto;
-            border-radius: 8px;
+            border-radius: 50%;
         }
 
-        /* Footer styles */
-        footer {
-            background-color: #333;
-            color: #fff;
+        /* Bio content */
+        .bio-content {
             text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
+            margin-top: 20px;
         }
 
-        footer p {
-            margin: 0;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Welcome to Our Website</h1>
-    </header>
-    <main>
-        <p>We are delighted to have you here! Thank you for visiting our website.</p>
-        <p>Explore our content and discover what we have to offer.</p>
-        
-        <!-- Image section -->
-<!--         <div class="image-container">
-            <img src="https://via.placeholder.com/800x400" alt="Sample Image">
-        </div>
-        
-        <!-- Additional content -->
-<!--         <p>Our website offers a variety of services and information that can help you achieve your goals. Whether you're looking for advice, resources, or just want to learn more about our offerings, we're here to help.</p>
-        <p>Feel free to browse through our sections, and don't hesitate to reach out if you have any questions.</p>
-    </main>
-    <footer>
-        <p>&copy; thank for watching</p>
-    </footer>
-</body>
-</html> -->
-///////////////////////////////////////////////
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photo and Text Modal</title>
-    <style>
-        /* General styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
+        .bio-content h2 {
+            margin-bottom: 10px;
         }
 
         /* Button styles */
@@ -135,165 +64,10 @@
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
-            margin: 20px;
-        }
-
-        /* Modal styles */
-        .modal {
-            display: none;
-            position: fixed;
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%;
-            height: 100%;
-            overflow: auto;
-            background-color: rgba(0, 0, 0, 0.4);
-            padding-top: 60px;
-        }
-
-        .modal-content {
-            background-color: #fff;
-            margin: 5% auto;
-            padding: 20px;
-            border: 1px solid #888;
-            width: 80%;
-            max-width: 600px;
-            border-radius: 10px;
-            text-align: center;
-        }
-
-        .modal-content img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin-bottom: 20px;
-        }
-
-        .close-btn {
-            color: #aaa;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .close-btn:hover,
-        .close-btn:focus {
-            color: #000;
-            text-decoration: none;
-        }
-    </style>
-</head>
-<body>
-    <!-- Button to open the modal -->
-    <button class="open-modal-btn">Open Modal</button>
-
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
-        <div class="modal-content">
-            <span class="close-btn">&times;</span>
-            <img src="https://via.placeholder.com/600x300" alt="Sample Image">
-            <p>Here is some text accompanying the image. This is a simple modal dialog box where you can present an image along with some text.</p>
-        </div>
-    </div>
-
-    <script>
-        // Get the modal
-        var modal = document.getElementById("myModal");
-
-        // Get the button that opens the modal
-        var btn = document.querySelector(".open-modal-btn");
-
-        // Get the <span> element that closes the modal
-        var span = document.querySelector(".close-btn");
-
-        // When the user clicks the button, open the modal 
-        btn.onclick = function() {
-            modal.style.display = "block";
-        }
-
-        // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
-            modal.style.display = "none";
-        }
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
-</body>
-</html>
- -->
-///////////////////////////////
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Our Website</title>
-    <style>
-        /* General styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-            line-height: 1.6;
-        }
-
-        /* Header styles */
-        header {
-            background-color: #0073e6;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        /* Main content styles */
-        main {
-            padding: 20px;
-            max-width: 800px;
             margin: 20px auto;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-        }
-
-        main p {
-            margin: 10px 0;
-        }
-
-        /* Image styles */
-        .image-container {
-            text-align: center;
-            margin: 20px 0;
-        }
-
-        .image-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-
-        /* Button styles */
-        .open-modal-btn {
-            background-color: #0073e6;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-            margin: 20px;
             display: block;
             text-align: center;
             width: 200px;
-            margin: 20px auto;
         }
 
         /* Modal styles */
@@ -360,36 +134,36 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Website</h1>
+        <h1>My Bio Page</h1>
     </header>
     <main>
-        <p>We are delighted to have you here! Thank you for visiting our website.</p>
-        <p>Explore our content and discover what we have to offer.</p>
-        
         <!-- Image section -->
         <div class="image-container">
-            <img src="https://via.placeholder.com/800x400" alt="Sample Image">
+            <img src="https://via.placeholder.com/150" alt="My Profile Picture">
         </div>
-        
-        <!-- Additional content -->
-        <p>Our website offers a variety of services and information that can help you achieve your goals. Whether you're looking for advice, resources, or just want to learn more about our offerings, we're here to help.</p>
-        <p>Feel free to browse through our sections, and don't hesitate to reach out if you have any questions.</p>
+
+        <!-- Bio content -->
+        <div class="bio-content">
+            <h2>Your Name</h2>
+            <p>Your profession or title</p>
+            <p>Brief description about you, your interests, or your work.</p>
+        </div>
 
         <!-- Button to open the modal -->
-        <button class="open-modal-btn">Open Modal</button>
+        <button class="open-modal-btn">View More Details</button>
     </main>
 
     <!-- The Modal -->
     <div id="myModal" class="modal">
         <div class="modal-content">
             <span class="close-btn">&times;</span>
-            <img src="https://via.placeholder.com/600x300" alt="Sample Image">
-            <p>Here is some text accompanying the image. This is a simple modal dialog box where you can present an image along with some text.</p>
+            <img src="https://via.placeholder.com/600x300" alt="Detailed Image">
+            <p>Here is some more detailed information about you or your work. This is a simple modal dialog box where you can present additional content.</p>
         </div>
     </div>
 
     <footer>
-        <p>&copy; Since 1998 </p>
+        <p>&copy; 2023 Your Name</p>
     </footer>
 
     <script>
@@ -421,5 +195,3 @@
     </script>
 </body>
 </html>
-
-
